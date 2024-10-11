@@ -9,12 +9,12 @@ function App() {
       <h2>Cadastro de pessoa</h2>
       <form className="row g-3">
         <div className='col-md-6'>
-          <label htmlFor="email" className='form-label' placeholder="EMAIL">EMAIL</label>
-          <input type="email"  id="email" className="form-control"/>
+          <label htmlFor="email" className='form-label' placeholder="EMAIL">NOME COMPLETO</label>
+          <input type="text"  id="email" className="form-control"/>
         </div>
     
         <div className='col-md-6'>
-          <label htmlFor="senha" className='form-label' placeholder="SENHA">SENHA</label>
+          <label htmlFor="senha" className='form-label' placeholder="SENHA">NOME DA MÃE</label>
           <input type="password"  id="senha" className="form-control"/>
         </div>
 
@@ -62,7 +62,7 @@ function App() {
           <option value="3">Three</option>
         </select>
       </div> 
-      
+
       </form>
     </>
   )
