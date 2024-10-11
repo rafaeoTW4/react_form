@@ -17,13 +17,18 @@ function App() {
           <label htmlFor="senha" className='form-label' placeholder="SENHA">NOME DA MÃE</label>
           <input type="password"  id="senha" className="form-control"/>
         </div>
+        
+        <div className='col-md-2'>
+          <label htmlFor="date" className='form-label'>DATA DE NASC.</label>
+          <input type="date" className="form-control"/>
+        </div>
 
-        <div className='col-md-4'>
+        <div className='col-md-5'>
           <label htmlFor="CEP" className='form-label' placeholder="CEP">CEP</label>
           <input type="text"  id="senha" className="form-control"/>
         </div>
 
-        <div className='col-md-8'>
+        <div className='col-md-5'>
           <label htmlFor="bairro" className='form-label' placeholder="bairro">BAIRRO</label>
           <input type="text"  id="senha" className="form-control"/>
         </div>

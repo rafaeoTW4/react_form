@@ -53,10 +53,6 @@ label {
   color: white;
 }
 
-textarea::placeholder {
-  color: blue;
-}
-
-input::placeholder {
-  color: red;
+input {
+  color: black;
 }
